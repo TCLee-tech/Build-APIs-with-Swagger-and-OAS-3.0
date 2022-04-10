@@ -1,0 +1,59 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: H Plus Blog API
+tags:
+  - name: Article
+    description: Articles about exercise
+paths:
+  /article:
+    post:
+      tags:
+        - article
+      description: create a new article
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/article'
+      responses:
+        '201':
+          description: article successfully posted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  statusCode after resource created:
+                    type: integer
+                    example: 201
+    get:
+      tags:
+        - article
+      responses:
+        '200':
+          description: This is a page of blog article
+          content:
+            application/json:
+              schema:
+                type: array
+                items: 
+                  $ref: '#/components/schemas/article'
+components:
+  schemas:
+    article:
+      type: object
+      properties:
+        date:
+          type: string
+          format: date
+          example: 24-12-2022
+        tagline:
+          type: string
+          example: Tagline of article
+        content:
+          type: string
+          example: Sample body of article
+        category:
+          type: string
+          example: exercise

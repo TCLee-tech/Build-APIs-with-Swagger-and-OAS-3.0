@@ -1,0 +1,72 @@
+---
+openapi: 3.0.0
+info:
+  title: H Plus Blog API
+  version: 2.0.0
+servers:
+- url: https://virtserver.swaggerhub.com/LearnSwaggerSG7/h-plus_blog_api/2.0.0
+  description: SwaggerHub API Auto Mocking
+tags:
+- name: Article
+  description: Articles about exercise
+paths:
+  /article:
+    get:
+      tags:
+      - article
+      responses:
+        "200":
+          description: This is a page of blog article
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/article'
+    post:
+      tags:
+      - article
+      description: create a new article
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/article'
+      responses:
+        "201":
+          description: article successfully posted
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/inline_response_201'
+      security:
+      - api_key: []
+components:
+  schemas:
+    article:
+      type: object
+      properties:
+        date:
+          type: string
+          format: date
+          example: 0030-06-14
+        tagline:
+          type: string
+          example: Tagline of article
+        content:
+          type: string
+          example: Sample body of article
+        category:
+          type: string
+          example: exercise
+    inline_response_201:
+      type: object
+      properties:
+        statusCode after resource created:
+          type: integer
+          example: 201
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: api_key
+      in: header

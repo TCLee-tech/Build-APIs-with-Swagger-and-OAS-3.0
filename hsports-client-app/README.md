@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 node_modules folder has not been archived in Github. Need to reinstall using "npm install".
 
-if want to check on packages, look into "package-lock.json"
+if want to check on packages, look into "package-lock.json."
 
 ## Development server
 

@@ -55,6 +55,10 @@ Implement server-side API
     * shows successful running on localhost.
   * local machine running server stub API implementation 
     * shows successful Java Spring Boot initialization in Visual Studio Code using server stub from Swagger Hub.
+  * Azure Vm for Swagger API
+    * shows successful deployment of VM on Microsoft Azure that hosts API server
+  * Azure Vm for Swagger API 2
+    * shows details of deployed VM 
 
 - API proxy
   * Google Apigee Edge, AWS API Gateway, Azure API Management, IBM API Connect

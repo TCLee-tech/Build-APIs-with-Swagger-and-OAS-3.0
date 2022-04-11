@@ -64,8 +64,8 @@ Implement server-side API
   * Google Apigee Edge, AWS API Gateway, Azure API Management, IBM API Connect
   * Link to integration guide on swagger.io and in "instructions notes".
 
-### References and links for swagger.io in "Instructions Notes"
-### Useful references from Google:
+#### References and links for swagger.io in "Instructions Notes"
+#### Useful references from Google:
 
 OpenAPI Specification (formerly known as Swagger)
 https://github.com/OAI/OpenAPI-Specification
@@ -84,18 +84,25 @@ https://cloud.google.com/apigee/docs/api-platform/security/api-keys?hl=en
 
 OAuth 2.0 framework
 https://cloud.google.com/apigee/docs/api-platform/security/oauth/oauth-home?hl=en
+
 Intro to OAuth 2.0
 https://cloud.google.com/apigee/docs/api-platform/security/oauth/oauth-introduction?hl=en
+
 OAuth2.0 The Big Picture
 https://cloud.google.com/apigee/resources/ebook/oauth-big-picture-register?hl=en
+
 IETF Specification (the original)
 https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-31
+
 JWT (JSON Web Token) and JWS (JSON Web Signature)
 https://cloud.google.com/apigee/docs/api-platform/reference/policies/jwt-policies-overview?hl=en
+
 Security Assertion Markup Language
 https://cloud.google.com/apigee/docs/api-platform/security/saml?hl=en
+
 Apigee Integrated Developer portal
 https://docs.apigee.com/api-platform/publish/portal/build-integrated-portal
+
 Durpal - open source CMS
 https://www.drupal.org/
 

@@ -46,7 +46,7 @@ Implement server-side API
     * proof of work. 
     * note: No image as none was hosted on Swagger virtual hub.
 
-- Server-side API implementation gcreengrabs:
+- Server-side API implementation screengrabs:
 
   * ProductService java file with additional codes to build out server side API implementation
     * The java file with service layer code to call ProductAPIcontroller.java which is from Swagger Hub server stub

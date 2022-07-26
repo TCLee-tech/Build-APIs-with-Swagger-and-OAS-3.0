@@ -17,8 +17,9 @@ Implement server-side API
 ### Document List
 
 - [Notes on building APIs with Swagger and OAS 3](https://github.com/TCLee-tech/Build-APIs-with-Swagger-and-OAS-3.0/blob/d9db876b4e4b4ed7b18d74de9b60e031271667f5/Build%20Swagger%20APIs%20and%20OAS%203.docx)
-- Notes.txt - some possible changes to pom.xml. Java 8 is used for this repo. Java upgrade broke codes with deprecated elements.
-- yaml files
+- The server stub for Spring from SwaggerHub was based on Java 7 (version correct as of my trial. Upgrading Java to use version 17 (current Long-Term Support version) resulted in broken codes with multiple deprecated elements. Issue reflected to Swagger. JIRA raised. Nothing happened. Some possible changes to pom.xml are recorded in [Notes.txt](https://github.com/TCLee-tech/Build-APIs-with-Swagger-and-OAS-3.0/blob/df05b72fc445bd32174b508655828d64596acc76/Notes.txt).
+
+- Below is a list of yaml files, built using the Swagger Editor, to OpenAPI 3.0 Specification.
    * simpleAPI.yaml 
      * intro to document structure of OAS 3.0
    * LearnSwaggerSG7-h-plus_blog_api-2.0.0-resolved.yaml 

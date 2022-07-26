@@ -16,7 +16,7 @@ Implement server-side API
 
 ### Document List
 
-- Build Swagger APIs and OAS 3.docx - Instructions notes
+- [Notes on building APIs with Swagger and OAS 3](https://github.com/TCLee-tech/Build-APIs-with-Swagger-and-OAS-3.0/blob/d9db876b4e4b4ed7b18d74de9b60e031271667f5/Build%20Swagger%20APIs%20and%20OAS%203.docx)
 - Notes.txt - some possible changes to pom.xml. Java 8 is used for this repo. Java upgrade broke codes with deprecated elements.
 - yaml files
    * simpleAPI.yaml 

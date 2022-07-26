@@ -17,6 +17,7 @@ Design-driven development.
     - host and run Java machine on cloud. 
     - Use API proxy.
 <br>
+<hr>
 
 #### Document List
 
@@ -66,11 +67,17 @@ Design-driven development.
   * [Azure Vm for Swagger API 2](https://github.com/TCLee-tech/Build-APIs-with-Swagger-and-OAS-3.0/blob/87d0bef1b53a1a0463a4cbd0ef3f903f91de8f54/Azure%20Vm%20for%20Swagger%20API%202.jpg)
     * shows details of deployed VM 
 
-#### API proxy
-  * Google Apigee Edge, AWS API Gateway, Azure API Management, IBM API Connect
-  * Link to integration guide on swagger.io and in "instructions notes".
+<hr>
 
-##### Please refer to [Instructions Notes](https://github.com/TCLee-tech/Build-APIs-with-Swagger-and-OAS-3.0/blob/87d0bef1b53a1a0463a4cbd0ef3f903f91de8f54/Build%20Swagger%20APIs%20and%20OAS%203.docx) for more useful references and links related to swagger.io
+#### API proxy
+
+  * Google Apigee Edge
+  * AWS API Gateway
+  * Azure API Management 
+  * IBM API Connect
+  * Guides for integrating swagger.io  with these service providers? I have included links in my [Instructions Notes](https://github.com/TCLee-tech/Build-APIs-with-Swagger-and-OAS-3.0/blob/87d0bef1b53a1a0463a4cbd0ef3f903f91de8f54/Build%20Swagger%20APIs%20and%20OAS%203.docx).
+
+<hr>
 
 #### Useful references from Google:
 
@@ -120,4 +127,4 @@ burningtree.awesome-json
 Lightweight and flexible command-line JSON processor</br>
 https://stedolan.github.io/jq/
 
-Do you like my GitHub markdown?
+
